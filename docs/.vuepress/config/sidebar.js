@@ -4,6 +4,7 @@ const sidebar = {
         collapsable: false,
         children:[
             '基本介绍',
+            '变量',
             '数据类型'
         ]
     }],
