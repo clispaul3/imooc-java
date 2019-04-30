@@ -1,13 +1,14 @@
 const nav = [
     { text:'主页',link:'/' },
     { text:'入门基础',items:[
-        {text:'语法基础',link:'/1/基本介绍'},
-        // {text:'面向对象',link:'/入门基础-面向对象/'},
-        // {text:'常用工具类',link:'/入门基础-常用工具类/'},
+        {text:'语法基础1',link:'/1/基本介绍'},
+        {text:'语法基础2',link:'/2/方法'},
+        {text:'常用工具类',link:'/3/Math'},
         // {text:'网络与多线程',link:'/入门基础-网络与多线程/'},
         // {text:'文件操作',link:'/入门基础-文件操作/'},
         // {text:'数据操作',link:'/入门基础-数据操作/'}
     ]},
+    { text:'面向对象',link:"/OOP/访问修饰符"},
     // { text:'web基础',items:[
     //     {text:'JSP',link:'/web基础-JSP/'},
     //     {text:'Servlet',link:'/web基础-Servlet/'},

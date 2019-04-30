@@ -1,11 +1,39 @@
 const sidebar = {
     '/1/':[{
-        title:"语法基础",
+        title:"语法基础1",
         collapsable: false,
         children:[
             '基本介绍',
             '变量',
-            '数据类型'
+            '注释',
+            '数据类型',
+            '常量',
+            '运算符',
+            '流程控制'
+        ]
+    }],
+    '/2/':[{
+        title:"语法基础2",
+        collapsable: false,
+        children:[
+            '方法',
+            '数组',
+            '字符串',
+            'Arrays'
+        ]
+    }],
+    '/3/':[{
+        title:"常用工具类",
+        collapsable: false,
+        children:[
+            'Math'
+        ]
+    }],
+    '/OOP/':[{
+        title:"OOP",
+        collapsable: false,
+        children:[
+            '访问修饰符'
         ]
     }],
     // '/入门基础-面向对象/': [

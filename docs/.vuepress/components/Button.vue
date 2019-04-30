@@ -1,16 +1,20 @@
 <template>
   <div class="btn-top">
-    <button @click="scrollToTop">回到顶部</button>
+    <button @click="scrollToTop" v-show="isTop">{{top ? '回到顶部' : '回到顶部'}}</button>
   </div>
 </template>
 <script>
 export default {
   name: "Totop",
   data() {
-    return {};
+    return {
+      top:true,
+      isTop:false
+    };
   },
   methods: {
     scrollToTop() {
+      this.top = !this.top
       let timer = window.setInterval(function() {
         var pos = window.pageYOffset;
         if (pos > 0) {
@@ -19,6 +23,15 @@ export default {
           window.clearInterval(timer);
         }
       }, 16)
+    }
+  },
+  mounted(){
+    window.onscroll = ()=>{
+      if(window.pageYOffset>0){
+        this.isTop = true
+      }else{
+        this.isTop = false
+      }
     }
   }
 };
@@ -29,9 +42,11 @@ export default {
   right: 30px;
   bottom: 30px;
   width: 50px;
-  height: 30px;
+  /* height: 30px; */
 }
 button {
+  padding: 6px 8px;
+  border-radius:3px;
   background: #e96900;
   border: 0 none;
   outline: none;
