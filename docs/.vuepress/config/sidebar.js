@@ -26,7 +26,8 @@ const sidebar = {
         title:"常用工具类",
         collapsable: false,
         children:[
-            'Math'
+            'Math',
+            'Scanner'
         ]
     }],
     '/OOP/':[{

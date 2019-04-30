@@ -29,7 +29,7 @@ System.out.println(Arrays.binarySearch(arr, 200));  // 1
 
 ## copyOf
   - 复制数组，修改副本数据不会影响源数组
-  - 如果长度，则指定为默认值
+  - 如果指定的长度大于源数组，则指定为默认值
 ::: tip
 copyOf(int[] original, int newLength) 
 复制指定的数组，截取或用 0 填充（如有必要），以使副本具有指定的长度
@@ -38,3 +38,21 @@ copyOf(int[] original, int newLength)
 int[] arr = {1,2,3,4};
 int[] arr2 = Arrays.copyOf(arr,5);  // 1,2,3,4,0
 ```
+
+## copyOfRange
+
+## sort
+
+## toString
+
+## equals
+
+## fill
+
+## deepToString
+
+## deepEquals
+
+## deepHashCode
+
+<Button/>
