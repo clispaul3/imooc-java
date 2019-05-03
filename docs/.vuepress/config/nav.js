@@ -4,30 +4,26 @@ const nav = [
         {text:'语法基础1',link:'/1/基本介绍'},
         {text:'语法基础2',link:'/2/方法'},
         {text:'常用工具类',link:'/3/Math'},
+        {text:'集合框架',link:"/4/集合框架"},
         // {text:'网络与多线程',link:'/入门基础-网络与多线程/'},
         // {text:'文件操作',link:'/入门基础-文件操作/'},
         // {text:'数据操作',link:'/入门基础-数据操作/'}
     ]},
-    { text:'面向对象',link:"/OOP/访问修饰符"},
-    // { text:'web基础',items:[
-    //     {text:'JSP',link:'/web基础-JSP/'},
-    //     {text:'Servlet',link:'/web基础-Servlet/'},
-    //     {text:'Tomcat',link:'/web基础-Tomcat/'}
-    // ]},
-    // { text:'框架',items:[
-    //     {text:'基础',link:'/框架-基础/'},
-    //     {text:'Hibernate',link:'/框架-Hibernate/'},
-    //     {text:'Mybatis',link:'/框架-Mybatis/'},
-    //     {text:'Struts2',link:'/框架-Struts2/'},
-    //     {text:'Spring',link:'/框架-Spring/'},
-    //     {text:'SpringMVC',link:'/框架-SpringMVC/'}
-    // ]},
-    // {text:'项目实战',items:[
-    //     {text:'介绍',link:'/项目实战/'}
-    // ]},
-    // {text:'实用工具',items:[
-    //     {text:'介绍',link:'/实用工具/'}
-    // ]},
+    { text:'面向对象',items:[
+        {text:'基本语法',link:'/OOP/基本语法'},
+        {text:'泛型',link:'/OOP/泛型'},
+        {text:'反射',link:'/OOP/反射'}
+    ]},
+    { text:'IO流',items:[
+        {text:'File类',link:'/5/File'},
+        {text:'IO',link:'/5/IO'}
+    ]},
+    { text:'网络编程',items:[
+        {text:'Servlet',link:'/6/Servlet'},
+        {text:'JSP',link:'/6/JSP'},
+        {text:'Tomcat',link:'/6/Tomcat'}
+    ]},
+    { text:'JDBC',link:'/JDBC/' },
     { text:'GitHub',link:'https://github.com/clispaul3' }
 ]
 module.exports = {

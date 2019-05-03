@@ -19,72 +19,38 @@ const sidebar = {
             '方法',
             '数组',
             '字符串',
-            'Arrays'
+            'Arrays',
+            '异常'
         ]
     }],
     '/3/':[{
         title:"常用工具类",
         collapsable: false,
         children:[
+            '包装类',
             'Math',
-            'Scanner'
+            'Scanner',
+            'Date',
+            'Calendar'
         ]
     }],
-    '/OOP/':[{
-        title:"OOP",
-        collapsable: false,
+    '/5/':[{
+        title:"IO流",
+        collapsable:false,
         children:[
-            '访问修饰符'
+            'File',
+            'IO'
         ]
     }],
-    // '/入门基础-面向对象/': [
-    //     ''
-    // ],
-    // '/入门基础-文件操作/':[
-    //     ''
-    // ],
-    // '/入门基础-网络与多线程/':[
-    //     ''
-    // ],
-    // '/入门基础-数据操作/':[
-    //     ''
-    // ],
-    // '/入门基础-常用工具类/':[
-    //     ''
-    // ],
-    // '/web基础-JSP/':[
-    //     ''
-    // ],
-    // '/web基础-Servlet/':[
-    //     ''
-    // ],
-    // '/web基础-Tomcat/':[
-    //     ''
-    // ],
-    // '/框架-基础/':[
-    //     ''
-    // ],
-    // '/框架-Hibernate/':[
-    //     ''
-    // ],
-    // '/框架-Mybatis/':[
-    //     ''
-    // ],
-    // '/框架-Spring/':[
-    //     ''
-    // ],
-    // '/框架-SpringMVC/':[
-    //     ''
-    // ],
-    // '/框架-Struts2/':[
-    //     ''
-    // ],
-    // '/项目实战/':[
-    //     ''
-    // ],
-    // '/实用工具/':[
-    //     ''
-    // ]
+    '/6/':[{
+        title:"网络编程",
+        collapsable:false,
+        children:[
+            'Servlet',
+            'JSP',
+            'Tomcat'
+        ]
+    }]
 }
 module.exports = {
     sidebar
