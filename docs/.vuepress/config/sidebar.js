@@ -42,7 +42,7 @@ const sidebar = {
             'IO'
         ]
     }],
-    '/6/':[{
+    '/JavaWeb/':[{
         title:"网络编程",
         collapsable:false,
         children:[

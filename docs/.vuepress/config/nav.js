@@ -18,10 +18,10 @@ const nav = [
         {text:'File类',link:'/5/File'},
         {text:'IO',link:'/5/IO'}
     ]},
-    { text:'网络编程',items:[
-        {text:'Servlet',link:'/6/Servlet'},
-        {text:'JSP',link:'/6/JSP'},
-        {text:'Tomcat',link:'/6/Tomcat'}
+    { text:'JavaWeb',items:[
+        {text:'Servlet',link:'/JavaWeb/Servlet'},
+        {text:'JSP',link:'/JavaWeb/JSP'},
+        {text:'Tomcat',link:'/JavaWeb/Tomcat'}
     ]},
     { text:'JDBC',link:'/JDBC/' },
     { text:'GitHub',link:'https://github.com/clispaul3' }
