@@ -78,5 +78,7 @@
       </Host>
       ```
 
+## 发布项目
+ - Run As
 
 <Button/>

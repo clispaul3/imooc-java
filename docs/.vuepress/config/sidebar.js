@@ -48,7 +48,8 @@ const sidebar = {
         children:[
             'Servlet',
             'JSP',
-            'Tomcat'
+            'Tomcat',
+            'XML'
         ]
     }]
 }

@@ -12,7 +12,9 @@ const nav = [
     { text:'面向对象',items:[
         {text:'基本语法',link:'/OOP/基本语法'},
         {text:'泛型',link:'/OOP/泛型'},
-        {text:'反射',link:'/OOP/反射'}
+        {text:'反射',link:'/OOP/反射'},
+        {text:'注解',link:'/OOP/注解'},
+        {text:'枚举',link:'/OOP/枚举'}
     ]},
     { text:'IO流',items:[
         {text:'File类',link:'/5/File'},
@@ -21,7 +23,8 @@ const nav = [
     { text:'JavaWeb',items:[
         {text:'Servlet',link:'/JavaWeb/Servlet'},
         {text:'JSP',link:'/JavaWeb/JSP'},
-        {text:'Tomcat',link:'/JavaWeb/Tomcat'}
+        {text:'Tomcat',link:'/JavaWeb/Tomcat'},
+        {text:'XML',link:'/JavaWeb/XML'}
     ]},
     { text:'JDBC',link:'/JDBC/' },
     { text:'GitHub',link:'https://github.com/clispaul3' }
