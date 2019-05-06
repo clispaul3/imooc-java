@@ -8,6 +8,7 @@ sidebar: auto
   - [参考文档1](http://www.cnblogs.com/yjmyzz/p/3519373.html)
   - [参考文档2](https://www.cnblogs.com/hongwz/p/5456578.html)
   - [菜鸟教程](https://www.runoob.com/maven/maven-tutorial.html)
+  - [依赖包官网](https://mvnrepository.com/)
 
 ## 作用
   1. 统一开发规范
