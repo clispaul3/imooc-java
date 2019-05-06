@@ -26,6 +26,13 @@ const nav = [
         {text:'Tomcat',link:'/JavaWeb/Tomcat'},
         {text:'XML',link:'/JavaWeb/XML'}
     ]},
+    {text:'框架',items:[
+        {text:'Maven',link:'/framework/Maven'},
+        {text:'Hibernate',link:'/framework/Hibernate'},
+        {text:'Struts2',link:'/framework/Struts2'},
+        {text:'Mybatis',link:'/framework/Mybatis'},
+        {text:'SpringMVC',link:'/framework/SpringMVC'}
+    ]},
     { text:'JDBC',link:'/JDBC/' },
     { text:'GitHub',link:'https://github.com/clispaul3' }
 ]

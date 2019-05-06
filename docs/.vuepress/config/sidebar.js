@@ -49,7 +49,8 @@ const sidebar = {
             'Servlet',
             'JSP',
             'Tomcat',
-            'XML'
+            'XML',
+            'Socket'
         ]
     }]
 }
