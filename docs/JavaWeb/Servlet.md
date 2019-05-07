@@ -1,11 +1,13 @@
 # Servlet
 ## 基本介绍
+   ![servlet](/img/servlet.jpg)
+
    ```
     Servlet是JavaWeb的三大组件之一，属于动态资源。Servlet的作用是处理请求，服务器会把接
     收到的请求交给Servlet处理，在Servlet中通常需要：
       1. 接收请求数据
       2. 处理请求
-      3. 相应请求
+      3. 响应请求
     Servlet需要自己编写，每个Servlet必须实现java.servlet.Servlet接口
     
    ```
@@ -15,7 +17,7 @@
 ## 实现Servlet
 ### 三种实现方式
    1. 实现javax.servlet.Servlet接口
-   ```
+   ```java
    package cn.zyb.servlet;
 
     import java.io.IOException;
@@ -92,15 +94,17 @@
    3. doGet()
    4. doPost()
    5. destroy()
-   ```
+::: tip
    1. service()可以处理post/get请求，如果Servlet中有service方法，会优先调用
    2. doGet()只能处理get请求
    3. doPost()只能处理post请求
-   ```
+:::
+
 ## 常见错误
    1. 404错误：未找到资源
    2. 405错误：请求方法不对
    3. 500错误：未完成请求，服务器遇到意外情况
+
 ## HttpServletRequest
    `req对象是由Tomcat服务器创建的`
    1. 请求头(和浏览器相关)
@@ -131,6 +135,7 @@
 			  System.out.println(enumeration.nextElement() + "=" + value);
 		  }
       ```
+
 ## HttpServletResponse
    `resp对象是由Tomcat服务器创建的`
    1. 设置响应头
@@ -142,6 +147,7 @@
          + resp.setContentType("text/html;chatset-utf-8")
    2. 设置响应体
       + resp.getWriter().writer()
+      
 ## 网页重定向
    1. resp.sendRedirect("http://www.baidu.com")
    2. 
