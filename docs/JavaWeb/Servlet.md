@@ -278,3 +278,14 @@
       4. 监听器配置
    + 加载顺序：ServletContext -> context-param -> listener -> filter -> servlet
        
+## 过滤器
+  - Servlet 过滤器是可用于 Servlet 编程的 Java 类，可以实现以下目的
+    1. 在客户端的请求访问后端资源之前，拦截这些请求
+    2. 在服务器的响应发送回客户端之前，处理这些响应
+  - 过滤器是一个实现了 javax.servlet.Filter 接口的 Java 类。javax.servlet.Filter 接口定义了三个方法
+    1. public void doFilter (ServletRequest, ServletResponse, FilterChain)
+    该方法完成实际的过滤操作，当客户端请求方法与过滤器设置匹配的URL时，Servlet容器将先调用过滤器的doFilter方法。FilterChain用户访问后续过滤器
+    2. public void init(FilterConfig filterConfig)
+    web 应用程序启动时，web 服务器将创建Filter 的实例对象，并调用其init方法，读取web.xml配置，完成对象的初始化功能，从而为后续的用户请求作好拦截的准备工作（filter对象只会创建一次，init方法也只会执行一次）。开发人员通过init方法的参数，可获得代表当前filter配置信息的FilterConfig对象。
+    3. public void destroy()
+    Servlet容器在销毁过滤器实例前调用该方法，在该方法中释放Servlet过滤器占用的资源
